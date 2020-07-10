@@ -14,10 +14,19 @@ As your project grows, pure HTML, CSS and JS will get more and more unweildy, ha
 This is, of course, the tip of a massive iceberg. 
 
 And I would be remiss if I didn't play the devil's advocate: 
-![](demo/counterargument.png)
+![](demo/countera.png)
 
 ## Motivation 2: Why use the "React" framwork?
+React.JS is one of the most popular libraries for front-end web development. It's open-source, and has a huge community of developers working on open source projects through it. Facebook (yes, that Facebook) uses React!
 
+React fits very cleanly into the MVC model of development we previously talked about. Quick reminder about that:
+![](demo/mvc.png)
+
+React is incredibly good at scoping and components –– ie, it is object oriented and does separation of concerns well. It's also similar to Bootstrap and Jquery in that it's unrestrictive –– you can use as much or as little of it as you desire!
+
+It also removes the barrier created by different languages being in different files (how? More on that later!), which helps in creating a more modular project.
+
+The biggest power of React, however, is its renderer. 
 
 
 ## Fancy Example!
