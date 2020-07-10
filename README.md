@@ -26,15 +26,26 @@ React is incredibly good at scoping and components –– ie, it is object orien
 
 It also removes the barrier created by different languages being in different files (how? More on that later!), which helps in creating a more modular project.
 
-The biggest power of React, however, is its renderer. 
+The biggest power of React, however, is its renderer. While Javascript is messy with how it handles dynamic re-render, React.JS is clean. Something that might take you 20 lines of code in JS takes you one in React.
+
+Cons of React: Sharp learning curve :(, JSX is confusing (I second this one, I still get confused!) and it's a big library, decreasing how light-weight your code can be. (Longer load times)
 
 
 ## Fancy Example!
 Fork this repo, then run the commands `npm install` and `npm start` in your terminal of choice. Enjoy a fancy frontend calculator!
 
-Simplest Possible Example
+## Simplest Possible Example
+Replace the lines in `index.js` with the following:
+```
+let a = "Hi"
+let b = <p> This is Hello </p>
+ReactDOM.render(
+   <h1>{a}{b}</h1>,
+    document.getElementById("root"));
+```
 
-Breakdown of How React Works Alongside HTML/CSS/JS
+## Breakdown of How React Works Alongside HTML/CSS/JS
+`React.createElement`
 
 What is JSX?
 
