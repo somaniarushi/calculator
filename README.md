@@ -45,6 +45,15 @@ ReactDOM.render(
 ```
 
 ## Breakdown of How React Works Alongside HTML/CSS/JS
+DOM Updation
+
+## What is JSX?
+HTML in JS.
+
+## Some Simple Examples of JSX
+See above!
+
+## What's Going On Behind the Scenes With JSX?
 ```
 React.createElement(
   type,
@@ -52,9 +61,3 @@ React.createElement(
   [...children]
 )
 ```
-
-## What is JSX?
-
-## Some Simple Examples of JSX
-
-## What's Going On Behind the Scenes With JSX?
