@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./component/App";
-import "./index.css";
-// import "github-fork-ribbon-css/gh-fork-ribbon.css";
+// import "./index.css";
+
+const a = "Hello world"
 
 ReactDOM.render(
-    <App />,
+    <h1>{a}</h1>,
     document.getElementById("root"));
